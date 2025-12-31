@@ -1,15 +1,4 @@
 @import "tailwindcss";
-@font-face {
-  font-family: "Ubunto";
-  src: url("/src/font/Ubuntu-Regular.ttf") format("truetype");
-  font-style: normal;
-}
-@theme {
-  --font-ubunto: "Ubunto",Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
-}
-.word-spacing-md {
-  word-spacing: 5px; /* یا px دلخواه */
-}
 
 @layer utilities {
   .animate-in {
